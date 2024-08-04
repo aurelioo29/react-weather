@@ -6,8 +6,19 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
 .app {
   min-height: 100vh;
   display: grid;
   background: #e2d4ff;
+  height: 100%;
 }
